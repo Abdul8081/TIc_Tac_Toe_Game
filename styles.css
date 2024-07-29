@@ -94,6 +94,18 @@
     background-color: rgba(0, 255, 0, 0.3);
 }
 
+@media only screen and (width: 320px) {
+    .btn.active {
+        margin-bottom: 70px;
+    }
+    .game-info {
+        margin-top: 50px;
+    }
+    p.game-info{
+        width: 100px;
+    }
+}
+
 @media only screen and (max-width: 480px) {
     .game-info {
         top: 1rem;
